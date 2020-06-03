@@ -1,0 +1,49 @@
+>>>>>> single thread, 8 keys <<<<<<<
+Throughput: 9,076,386
+Throughput: 10,463,564
+Throughput: 10,216,794
+>>>>>> single thread, 128 keys <<<<<<<
+Throughput: 10,137,740
+Throughput: 10,275,437
+Throughput: 10,331,334
+>>>>>> single thread, 1024 keys <<<<<<<
+Throughput: 7,631,383
+Throughput: 7,342,579
+Throughput: 8,909,341
+>>>>>> single thread, 8096 keys <<<<<<<
+Throughput: 5,543,819
+Throughput: 5,345,560
+Throughput: 5,574,072
+>>>>>> single thread, 32384 keys <<<<<<<
+Throughput: 3,117,501
+Throughput: 3,638,383
+Throughput: 3,864,967
+>>>>>> single thread, 129536 keys <<<<<<<
+Throughput: 2,648,091
+Throughput: 2,571,886
+Throughput: 2,611,672
+
+>>>>>> 4 threads, 8 keys <<<<<<<
+Throughput: 8,136,420
+Throughput: 7,962,247
+Throughput: 7,759,079
+>>>>>> 4 threads, 128 keys <<<<<<<
+Throughput: 8,177,404
+Throughput: 8,341,346
+Throughput: 8,159,107
+>>>>>> 4 threads, 1024 keys <<<<<<<
+Throughput: 6,768,460
+Throughput: 7,296,029
+Throughput: 7,040,616
+>>>>>> 4 threads, 8096 keys <<<<<<<
+Throughput: 5,351,237
+Throughput: 4,970,334
+Throughput: 4,566,120
+>>>>>> 4 threads, 32384 keys <<<<<<<
+Throughput: 3,248,389
+Throughput: 3,020,332
+Throughput: 2,893,701
+>>>>>> 4 threads, 129536 keys <<<<<<<
+Throughput: 2,316,901
+Throughput: 2,082,975
+Throughput: 2,517,154

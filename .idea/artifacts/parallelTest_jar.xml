@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="parallelTest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/parallelTest_jar</output-path>
+    <root id="archive" name="parallelTest.jar">
+      <element id="module-output" name="parallelTest" />
+    </root>
+  </artifact>
+</component>
