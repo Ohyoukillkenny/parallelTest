@@ -1,0 +1,28 @@
+>>>>>> baseline (no child thread) <<<<<<<
+Throughput: 10,705,708
+Throughput: 10,970,651
+Throughput: 10,989,700
+>>>>>> 1 threads in the thread pool <<<<<<<
+Throughput: 9,122,311
+Throughput: 9,057,310
+Throughput: 8,943,582
+>>>>>> 2 threads in the thread pool <<<<<<<
+Throughput: 9,028,642
+Throughput: 8,961,509
+Throughput: 8,982,597
+>>>>>> 4 threads in the thread pool <<<<<<<
+Throughput: 9,461,627
+Throughput: 8,973,208
+Throughput: 9,014,252
+>>>>>> 8 threads in the thread pool <<<<<<<
+Throughput: 9,128,074
+Throughput: 9,033,379
+Throughput: 9,429,106
+>>>>>> 16 threads in the thread pool <<<<<<<
+Throughput: 9,379,825
+Throughput: 9,420,580
+Throughput: 8,933,657
+>>>>>> 32 threads in the thread pool <<<<<<<
+Throughput: 8,874,225
+Throughput: 8,964,087
+Throughput: 8,971,423
