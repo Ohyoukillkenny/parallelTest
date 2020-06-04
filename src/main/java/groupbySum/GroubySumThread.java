@@ -27,7 +27,7 @@ public class GroubySumThread extends Thread {
     public void run() {
         while (!exit) {
             try {
-                Thread.sleep(100);
+                Thread.sleep(512);
             }
             catch (InterruptedException e) {
                 System.out.println("Caught:" + e);
