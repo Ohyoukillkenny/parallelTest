@@ -3,7 +3,7 @@ package utils;
 import java.util.Iterator;
 import java.util.Random;
 
-public class UniformStream {
+public class UniformStream implements Stream<KV<Long,Long>>{
     // keys are uniformly distributed
     private final long numOfKeys;
     private final long rangeOfVals;
@@ -16,6 +16,7 @@ public class UniformStream {
         rnd = new Random(seed);
     }
 
+    @Override
     public Iterator<KV<Long,Long>> infinite(){
         return new Iterator<KV<Long,Long>>() {
             public boolean hasNext() {
@@ -29,6 +30,7 @@ public class UniformStream {
         };
     }
 
+    @Override
     public Iterator<KV<Long, Long>> finite(long N){
         return new Iterator<KV<Long,Long>>() {
             long cnt = 0;
@@ -43,6 +45,14 @@ public class UniformStream {
                 return ret;
             }
         };
+    }
+
+    public static KV<Long, Long> EOS() {
+        return new KV<>(-1L, -1L);
+    }
+
+    public static boolean isEOS(KV<Long, Long> kv) {
+        return kv.key < 0 && kv.val < 0;
     }
 
     public static void main(String[] args) {

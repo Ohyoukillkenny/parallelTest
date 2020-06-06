@@ -3,7 +3,7 @@ package utils;
 import java.util.Iterator;
 import java.util.Random;
 
-public class GaussianStream {
+public class GaussianStream implements Stream<KV<Long,Long>>{
     // keys with gaussian distribution
     private final long rangeOfVals;
     private final Random rnd;
@@ -17,6 +17,7 @@ public class GaussianStream {
         this.sigma = sigma;
     }
 
+    @Override
     public Iterator<KV<Long,Long>> infinite(){
         return new Iterator<KV<Long,Long>>() {
 
@@ -32,6 +33,7 @@ public class GaussianStream {
         };
     }
 
+    @Override
     public Iterator<KV<Long, Long>> finite(long N){
         return new Iterator<KV<Long,Long>>() {
             long cnt = 0;
@@ -47,6 +49,15 @@ public class GaussianStream {
                 return ret;
             }
         };
+    }
+
+
+    public static KV<Long, Long> EOS() {
+        return new KV<>(-1L, -1L);
+    }
+
+    public static boolean isEOS(KV<Long, Long> kv) {
+        return kv.key < 0 && kv.val < 0;
     }
 
     public static void main(String[] args) {

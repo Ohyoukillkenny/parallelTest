@@ -1,4 +1,4 @@
-package groupbySum;
+package groupbySumRunnable;
 
 import utils.Format;
 import utils.GaussianStream;
