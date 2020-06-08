@@ -2,9 +2,8 @@ package grpSum;
 
 import utils.Buffer;
 import utils.KV;
-import utils.UniformStream;
+import utils.KVStream;
 
-import java.util.HashMap;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -24,7 +23,7 @@ public class GrpSumWorker implements Callable<Long> {
         while (true) {
             try {
                 KV<Long,Long> item = buffer.poll();
-                if (UniformStream.isEOS(item)){
+                if (KVStream.isEOS(item)){
                     break;
                 }
                 cnt ++;

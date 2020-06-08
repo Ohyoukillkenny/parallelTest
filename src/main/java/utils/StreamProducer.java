@@ -2,13 +2,13 @@ package utils;
 
 import java.util.Iterator;
 
-public class StreamProducer implements Runnable {
+public class StreamProducer<A> implements Runnable {
     private int numOfThreads;
-    private Iterator<KV<Long,Long>> input;
-    private KV<Long,Long> eos;
-    private Buffer<KV<Long, Long>> buffer;
+    private Iterator<A> input;
+    private A eos;
+    private Buffer<A> buffer;
 
-    public StreamProducer(int numOfThreads, Iterator<KV<Long,Long>> input, KV<Long,Long> eos, Buffer<KV<Long, Long>> buffer) {
+    public StreamProducer(int numOfThreads, Iterator<A> input, A eos, Buffer<A> buffer) {
         this.numOfThreads = numOfThreads;
         this.input = input;
         this.buffer = buffer;

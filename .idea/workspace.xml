@@ -7,27 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df1ebed-5742-4f97-bd6a-326d1ec653e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/GrpSumWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/Thread_N_Uniform.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySum/GroubySumThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySum/Thread_1_Gaussian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/Thread_1_Gaussian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySum/Thread_N_Uniform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySum/Thread_Opt_Uniform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySum/Thread_Single_Uniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/Thread_Single_Uniform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GaussianStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GaussianStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/UniformStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/UniformStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/groupbySum/GroubySumThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/groupbySum/Thread_1_Gaussian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/groupbySum/Thread_N_Uniform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/groupbySum/Thread_Opt_Uniform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/groupbySum/Thread_Single_Uniform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/GaussianStream$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/GaussianStream$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/GaussianStream$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/GaussianStream$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/GaussianStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/GaussianStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/UniformStream$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/UniformStream$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/UniformStream$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/UniformStream$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/UniformStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/UniformStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QuickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QuickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/GrpSumWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/StreamProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/Thread_1_Gaussian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/Thread_N_Uniform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groupbySumRunnable/Thread_Single_Uniform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grpSum/GrpSumWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grpSum/GrpSumWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grpSum/Thread_N_Uniform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grpSum/Thread_Uniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grpSum/GrpSum_Parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grpSum/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GaussianStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Prob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Prob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/StreamProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/StreamProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/UniformStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/KVStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QuickTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QuickTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/groupbySumRunnable/GrpSumWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/groupbySumRunnable/StreamProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/groupbySumRunnable/Thread_1_Gaussian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/groupbySumRunnable/Thread_N_Uniform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/groupbySumRunnable/Thread_Single_Uniform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/GaussianStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/GaussianStream$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/GaussianStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/UniformStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/UniformStream$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/UniformStream.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,69 +46,76 @@
     <session id="-1767488086">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="57" />
+          <entry key="java" value="112" />
+          <entry key="sh" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="57" />
+          <entry key="Bash" value="2" />
+          <entry key="JAVA" value="112" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="26" />
-          <entry key="java" value="3503" />
+          <entry key="dummy" value="65" />
+          <entry key="java" value="7384" />
+          <entry key="sh" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3503" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Bash" value="87" />
+          <entry key="JAVA" value="7384" />
+          <entry key="PLAIN_TEXT" value="65" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream2/TaskProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream2/TaskWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/Thread_Uniform.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream2/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/Thread_N_Uniform.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="46" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/GrpSumWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state relative-caret-position="162">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +152,6 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/KV.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/GaussianStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/UniformStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/Stream.java" />
         <option value="$PROJECT_DIR$/src/main/java/groupbySum/StreamProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/HM.java" />
         <option value="$PROJECT_DIR$/src/main/java/groupbySum/GrpSumWorker.java" />
@@ -148,11 +160,30 @@
         <option value="$PROJECT_DIR$/src/main/java/grpSum/Worker.java" />
         <option value="$PROJECT_DIR$/src/main/java/grpSum/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Producer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/StreamProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Buffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/grpSum/Thread_N_Uniform.java" />
         <option value="$PROJECT_DIR$/src/main/java/grpSum/GrpSumWorker.java" />
         <option value="$PROJECT_DIR$/src/main/java/grpSum/Thread_Uniform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QuickTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI/PIProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI/ComputePI_Sequential.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Computation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI/PIWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI/ComputePI_Parallel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Prob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/KVStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Stream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/LongStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/StreamProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/grpSum/GrpSum_Parallel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Pair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI_Stream/ComputePI_Stream_Sequential.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI_Stream/PIStreamWorker.java" />
+        <option value="$PROJECT_DIR$/scripts/computePI_threadN.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI_Stream/ComputerPI_Stream_Parallel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI_Stream2/TaskProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI_Stream2/TaskWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/computePI_Stream2/Runner.java" />
       </list>
     </option>
   </component>
@@ -212,15 +243,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="grpSum" type="462c0819:PsiDirectoryNode" />
+              <item name="computePI_Stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallelTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parallelTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="computePI_Stream2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallelTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parallelTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,7 +275,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="paralleltest" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591416705712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591593461159" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -247,13 +294,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Thread_Uniform">
-    <configuration name="HM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.HM" />
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="ComputePI_Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="computePI.ComputePI_Parallel" />
       <module name="parallelTest" />
+      <option name="PROGRAM_PARAMETERS" value="2 1000000000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="computePI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,20 +309,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickTest" />
+    <configuration name="ComputePI_Sequential" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="computePI.ComputePI_Sequential" />
       <module name="parallelTest" />
+      <option name="PROGRAM_PARAMETERS" value="1000000000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="computePI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread_N_Uniform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="groupbySumRunnable.Thread_N_Uniform" />
+    <configuration name="ComputePI_Stream_Sequential" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="computePI_Stream.ComputePI_Stream_Sequential" />
       <module name="parallelTest" />
-      <option name="PROGRAM_PARAMETERS" value="7 10000000 16 100" />
+      <option name="PROGRAM_PARAMETERS" value="1000 100000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="groupbySumRunnable.*" />
+          <option name="PATTERN" value="computePI_Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerPI_Stream_Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="computePI_Stream.ComputerPI_Stream_Parallel" />
+      <module name="parallelTest" />
+      <option name="PROGRAM_PARAMETERS" value="1 1000 100000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="computePI_Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="computePI_Stream2.Runner" />
+      <module name="parallelTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="computePI_Stream2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,48 +378,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread_Opt_Uniform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="groupbySum.Thread_Opt_Uniform" />
-      <module name="parallelTest" />
-      <option name="PROGRAM_PARAMETERS" value="100000000 8096 100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="groupbySumRunnable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Thread_Uniform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grpSum.Thread_Uniform" />
-      <module name="parallelTest" />
-      <option name="PROGRAM_PARAMETERS" value="7 1000000 16 100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="grpSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.QuickTest" />
-      <item itemvalue="Application.Thread_Opt_Uniform" />
-      <item itemvalue="Application.Thread_N_Uniform" />
-      <item itemvalue="Application.HM" />
-      <item itemvalue="Application.Thread_Uniform" />
+      <item itemvalue="Application.ComputePI_Sequential" />
+      <item itemvalue="Application.ComputePI_Parallel" />
+      <item itemvalue="Application.ComputePI_Stream_Sequential" />
+      <item itemvalue="Application.ComputerPI_Stream_Parallel" />
+      <item itemvalue="Application.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Thread_Uniform" />
-        <item itemvalue="Application.Thread_N_Uniform" />
-        <item itemvalue="Application.Thread_N_Uniform" />
-        <item itemvalue="Application.HM" />
-        <item itemvalue="Application.Thread_Opt_Uniform" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.ComputerPI_Stream_Parallel" />
+        <item itemvalue="Application.ComputePI_Stream_Sequential" />
+        <item itemvalue="Application.ComputePI_Parallel" />
+        <item itemvalue="Application.ComputePI_Sequential" />
       </list>
     </recent_temporary>
   </component>
@@ -356,9 +410,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -367,7 +420,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5140998" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45770064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,6 +438,34 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35357916" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -392,13 +473,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QuickTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -472,20 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/UniformStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/HM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -538,42 +598,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/StreamProducer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/grpSum.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="1197">
+          <caret line="530" column="18" selection-start-line="530" selection-start-column="18" selection-end-line="530" selection-end-column="18" />
+          <folding>
+            <element signature="e#21068#21069#0" expanded="true" />
+            <element signature="e#21142#21143#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/BlockingQueue.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+        <state relative-caret-position="513">
+          <caret line="772" column="67" lean-forward="true" selection-start-line="772" selection-start-column="67" selection-end-line="772" selection-end-column="67" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/grpSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI/PIProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        <state relative-caret-position="36">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Buffer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/QuickTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Computation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI/PIWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/GrpSum_Sequential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="579">
           <caret line="40" column="22" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="40" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -581,30 +675,205 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Prob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/KVStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/LongStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/GrpSum_Parallel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/GrpSumWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="54">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/Thread_N_Uniform.java">
+    <entry file="file://$PROJECT_DIR$/scripts/uniform_threadN.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/computePI_threadN.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI/ComputePI_Sequential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/grpSum/Thread_Uniform.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI/ComputePI_Parallel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="234">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/StreamProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream/ComputePI_Stream_Sequential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream/PIStreamWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="207" column="7" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream/ComputerPI_Stream_Parallel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="66" column="70" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="66" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream2/TaskProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream2/TaskWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/computePI_Stream2/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
