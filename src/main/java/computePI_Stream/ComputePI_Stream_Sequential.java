@@ -10,7 +10,6 @@ public class ComputePI_Stream_Sequential {
     public static void main(String[] args) {
         final long numOfSamplings = Long.parseLong(args[args.length-2]);
         final long lengthOfStream = Long.parseLong(args[args.length-1]);
-
         Iterator<Pair<Long,Long>> input = new Iterator<Pair<Long,Long>>() {
             long cnt = 0;
             @Override

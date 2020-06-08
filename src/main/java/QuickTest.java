@@ -7,7 +7,7 @@ public class QuickTest {
 
     public static void main(String[] args) {
 //        long N = 1024 * 1024 * 1024;
-        long N =1024 * 1024 * 4;
+        long N = 10000;
         long start = System.nanoTime();
         /* == begin task == */
         Pair<Double,Double>  results = computePI(N, 1001L);

@@ -7,10 +7,10 @@ import java.util.concurrent.*;
 
 public class Runner {
     public static void main(String[] args) {
-        final int numOfThreads = 16;
-        final int channelSize = 1024;
-        final long lengthOfStream = 100000;
-        final long numOfSamplings = 1000;
+        final int numOfThreads = Integer.parseInt(args[args.length-4]);
+        final int channelSize = Integer.parseInt(args[args.length-3]);
+        final long lengthOfStream = Long.parseLong(args[args.length-2]);
+        final long numOfSamplings = Long.parseLong(args[args.length-1]);
 
         // initialize the executor
         ExecutorService executor = Executors.newFixedThreadPool(numOfThreads);
@@ -32,9 +32,6 @@ public class Runner {
             results[i] = executor.submit(workers[i]);
         }
         executor.shutdown();
-        /* == end task == */
-        long end = System.nanoTime();
-
         // print the estimated value of pi and the error of computation for each thread
         for (int i = 0; i < numOfThreads; i++) {
             try {
@@ -45,10 +42,12 @@ public class Runner {
                 e.printStackTrace();
             }
         }
+        /* == end task == */
+        long end = System.nanoTime();
+
         long timeNano = end - start;
         long rate = (lengthOfStream * 1000L * 1000 * 1000) / timeNano;
         System.out.println("=======================================");
         System.out.println("Throughput: "+ Format.longToString(rate));
-
     }
 }

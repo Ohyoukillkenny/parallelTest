@@ -8,33 +8,40 @@ import java.util.concurrent.Callable;
 
 public class TaskWorker implements Callable<Pair<Double, Double>> {
     private final BlockingQueue<Long> inChannel;
-    private Pair<Double, Double> last;
+    private long cntOfReceivedItems;
+    private long sumOfReceivedItems;
+    private long cntOfSamples;
     private int id;
 
 
     public TaskWorker(int id, BlockingQueue<Long> inChannel) {
         this.inChannel = inChannel;
         this.id = id;
+        cntOfReceivedItems = 0;
+        sumOfReceivedItems = 0;
+        cntOfSamples = 0;
     }
 
     @Override
     public Pair<Double, Double> call() {
-        long count = 1L;
+        long seed = 1L;
         while (true) {
             try {
                 long item = inChannel.take();
                 if (item < 0L){
                     // now stream terminates
-                    System.out.println("Worker " + id + " has received " + count + " items.");
-                    break;
+                    System.out.println("Worker " + id + " has received " + cntOfReceivedItems + " items.");
+                    double pi = 4 * cntOfSamples / (double) sumOfReceivedItems;
+                    double error = 100 * Math.abs(pi-Math.PI)/Math.PI;
+                    return new Pair<>(pi, error);
                 }
-                long seed = count ++;
-                last = Computation.computePI(item, seed);
+                cntOfReceivedItems ++;
+                sumOfReceivedItems += item;
+                cntOfSamples += Computation.PISampling(item, seed++);
             }
             catch (InterruptedException e) {
                 System.out.println("Caught:" + e);
             }
         }
-        return last;
     }
 }
