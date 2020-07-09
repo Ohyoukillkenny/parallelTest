@@ -29,17 +29,13 @@ public class TaskProducer implements Runnable {
         long cnt = 0L;
         int index = 0; // 0 -- numOfChannels-1
         while (cnt < lengthOfStream) {
-            if (channels[index].remainingCapacity() == 0){
-//                System.out.println("Switched from thread " + index + " to " + (index + 1) % numOfChannels);
+            try {
+                channels[index].put(numOfSamplings);
                 index = (index + 1) % numOfChannels;
-            } else {
-                try {
-                    channels[index].put(numOfSamplings);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                cnt ++;
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
+            cnt ++;
         }
         // indicate the end of stream by sending -1L to workers
         for (int i = 0; i < numOfChannels; i++) {
