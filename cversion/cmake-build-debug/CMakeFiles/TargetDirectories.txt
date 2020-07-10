@@ -1,0 +1,4 @@
+C:/Users/kenny/Github/parallelTest/cversion/cmake-build-debug/CMakeFiles/serialSum.dir
+C:/Users/kenny/Github/parallelTest/cversion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/kenny/Github/parallelTest/cversion/cmake-build-debug/CMakeFiles/stdSum.dir
+C:/Users/kenny/Github/parallelTest/cversion/cmake-build-debug/CMakeFiles/edit_cache.dir
